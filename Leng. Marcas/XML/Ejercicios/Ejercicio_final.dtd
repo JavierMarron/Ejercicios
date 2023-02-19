@@ -1,0 +1,17 @@
+<!DOCTYPE Pedido [
+    <!ELEMENT Pedido (info_pedido,info_articulos)>
+    <!ELEMENT info_pedido (sucursal,trabajador,fecha_pedido,observaciones,plazo_revision+)>
+    <!ELEMENT sucursal (#PCDATA)>
+    <!ATTLIST sucursal codigo CDATA #REQUIRED direcciones (1 | 2 | 3) #IMPLIED >
+    <!ELEMENT trabajador (#PCDATA)>
+    <!ELEMENT fecha_pedido (#PCDATA)>
+    <!ELEMENT observaciones (#PCDATA)>
+    <!ELEMENT plazo_revision (#PCDATA)>
+    <!ELEMENT info_articulos (articulo+)>
+    <!ELEMENT articulo (codigo,unidades,precio,observaciones)>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ATTLIST codigo urgencia (si | no) #IMPLIED >
+    <!ELEMENT unidades (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT observaciones (#PCDATA)>
+]>

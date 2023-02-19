@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE listado SYSTEM "listado.dtd">
+
+<listado>
+  <futuro precio="12.59">
+    <producto>Hamburguesas</producto>
+    <mercado>Europa</mercado>
+    <ciudad_procedencia>
+      <Frankfurt/>
+    </ciudad_procedencia>
+  </futuro>
+  <divisa precio="1698">
+    <nombre_divisa>Euro</nombre_divisa>
+    <tipo_de_cambio>2.1:1 euros</tipo_de_cambio>
+    <tipo_de_cambio>1:0.87 dólares</tipo_de_cambio>
+    <ciudad_procedencia>
+      <Madrid/>
+    </ciudad_procedencia>
+  </divisa>
+  <bono precio="12940" estable="si">
+    <pais_de_procedencia>
+      Estados Unidos
+    </pais_de_procedencia>
+    <valor_deseado>1200</valor_deseado>
+    <valor_minimo>3970</valor_minimo>
+    <valor_maximo>18560</valor_maximo>
+    <ciudad_procedencia>
+      <Tokio/>
+    </ciudad_procedencia>
+  </bono>
+  <letra precio="96310">
+    <tipo_de_interes>7.83%</tipo_de_interes>
+    <pais_emisor>
+      <España/>
+    </pais_emisor>
+    <ciudad_procedencia>
+      <Madrid/>
+    </ciudad_procedencia>
+  </letra>
+</listado>

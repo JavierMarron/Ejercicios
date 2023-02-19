@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pedido>
+  <cedula>000-000000-0-0</cedula>
+  <sucursal>
+    <codigo>L0000</codigo>
+    <direcciones>
+      <direccion1>Direccion #1</direccion1>
+      <direccion2>Opcional</direccion2>
+    </direcciones>
+  </sucursal>
+  <trabajador>Nombre Trabajador</trabajador>
+  <fecha>FECHA DEL PEDIDO</fecha>
+  <observaciones>URGENTE/INCOMPLETO</observaciones>
+  <plazo_revision>DIAS DE PEDIDO</plazo_revision>
+  <articulos>
+    <articulo>
+      <codigo>ABC-123</codigo>
+      <unidades>NUMERO DE UNIDADES</unidades>
+      <precio>PRECIO DE UNIDADES</precio>
+      <observaciones>NUMERO DE UNIDADES</observaciones>
+    </articulo>
+  </articulos>
+</pedido>
