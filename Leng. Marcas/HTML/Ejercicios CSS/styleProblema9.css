@@ -1,0 +1,23 @@
+h1 em {
+  color:#dddddd;
+}
+
+h2:is(em) {
+  color:#cccccc;
+}
+
+h3:is(em) {
+  color:#bbbbbb;
+}
+
+h4 :is(em) {
+color:#aaaaaa;
+}
+
+h5 em {
+  color:#999999;
+}
+
+h6 em {
+  color:#888888;
+}
