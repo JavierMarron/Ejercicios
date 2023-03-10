@@ -1,0 +1,32 @@
+' Gambas class file
+
+Private numero As Integer
+
+
+Public Sub Bplay_Click()
+
+  numero = TBnumero.Text
+  
+  If (numero == 1) Then 
+    Lresultado.Text = "Lunes!"
+  Endif
+  If (numero == 2) Then 
+    Lresultado.Text = "Martes!"
+  Endif
+  If (numero == 3) Then 
+    Lresultado.Text = "Miercoles!"
+  Endif
+  If (numero == 4) Then 
+    Lresultado.Text = "Jueves!"
+  Endif
+  If (numero == 5) Then 
+    Lresultado.Text = "Viernes!"
+  Endif
+  If (numero == 6) Then 
+    Lresultado.Text = "Sabado!"
+  Endif
+  If (numero == 7) Then 
+    Lresultado.Text = "Domingo!"
+  Endif
+
+End

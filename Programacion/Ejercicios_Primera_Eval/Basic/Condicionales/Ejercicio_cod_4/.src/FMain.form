@@ -1,0 +1,39 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  Background = Color.Background
+  { LNota1 Label
+    MoveScaled(5,4,22,3)
+    Text = ("Primera nota:")
+  }
+  { TBnota1 TextBox
+    MoveScaled(5,8,25,5)
+    Background = Color.LightBackground
+  }
+  { LNota2 Label
+    MoveScaled(5,16,22,3)
+    Text = ("Segunda nota:")
+  }
+  { TBnota2 TextBox
+    MoveScaled(5,20,25,5)
+    Background = Color.LightBackground
+  }
+  { LNota3 Label
+    MoveScaled(5,28,22,3)
+    Text = ("Tercera nota:")
+  }
+  { TBnota3 TextBox
+    MoveScaled(5,32,25,5)
+    Background = Color.LightBackground
+  }
+  { Bplay Button
+    MoveScaled(19,47,28,8)
+    Background = Color.LightBackground
+    Text = ("Play!")
+  }
+  { Lresultado Label
+    MoveScaled(37,17,22,11)
+    Background = Color.LightBackground
+  }
+}

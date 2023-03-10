@@ -1,0 +1,21 @@
+' Gambas class file
+
+Private hora As Integer
+
+Public Sub Bplay_Click()
+
+  hora = TBhora.text 
+  If (hora >= 6 And hora <= 12) Then 
+    Lresultado.Text = "Buenos dias!"
+  Endif 
+  If (hora >= 13 And hora <= 20) Then 
+    Lresultado.Text = "Buenas tardes!"
+  Endif
+  If (hora >= 21 And hora <= 24) Then 
+    Lresultado.Text = "Buenas noches!"
+  Endif
+  If (hora >= 0 And hora <= 5) Then 
+    Lresultado.Text = "Buenas noches!"
+  Endif
+
+End

@@ -1,0 +1,23 @@
+' Gambas class file
+
+Private horas As Integer
+Private dinero As Integer
+
+
+Public Sub Bplay_Click()
+
+  horas = TBhoras.Text
+  
+  If (horas <= 40 And horas > 0) Then 
+    dinero = horas * 15 
+    Lresultado.Text = dinero 
+  Else If (horas > 40) Then 
+    horas = horas - 40
+    dinero = horas * 20
+    dinero = dinero + 600
+    Lresultado.Text = dinero 
+  Else 
+    Lresultado.Text = "ERROR!"
+  Endif 
+
+End

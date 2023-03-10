@@ -1,0 +1,18 @@
+' Gambas class file
+
+Private cuenta As Integer
+
+
+Public Sub Bplay_Click()
+
+  cuenta = 20
+  Dim i As Integer
+  i = 0
+  While i < 20
+    
+    Lresultado.Text = Lresultado.Text & " " & cuenta
+    cuenta = cuenta - 1 
+    Inc i 
+  Wend
+
+End 

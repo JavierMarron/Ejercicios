@@ -1,0 +1,16 @@
+' Gambas class file
+
+Private nombre As String
+Private direccion As String
+Private telefono As Integer
+
+
+Public Sub Bplay_Click()
+
+  nombre = TBnombre.Text
+  direccion = TBdireccion.Text
+  telefono = TBtelefono.Text
+  
+  LResultado.text = "Tu nombre es " & nombre & "\n Tu dirección es " & direccion & "\n Tu telefono es " & telefono
+
+End

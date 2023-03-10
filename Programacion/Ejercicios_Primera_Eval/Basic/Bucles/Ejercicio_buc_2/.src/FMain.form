@@ -1,0 +1,23 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  Background = Color.Background
+  { LNUM Label
+    MoveScaled(5,10,23,3)
+    Text = ("Número:")
+  }
+  { TBnumero TextBox
+    MoveScaled(4,14,22,5)
+    Background = Color.LightBackground
+  }
+  { Lresultado Label
+    MoveScaled(32,10,25,9)
+    Background = Color.LightBackground
+  }
+  { Bplay Button
+    MoveScaled(18,37,22,11)
+    Background = Color.LightBackground
+    Text = ("Play!")
+  }
+}

@@ -1,0 +1,13 @@
+' Gambas class file
+
+Private resultado As Float
+Private preciofinal As Float
+
+
+Public Sub BPlay_Click()
+
+  resultado = TextBox1.Text * (21 / 100) 
+  preciofinal = TextBox1.Text - resultado
+  
+  Label1.Text = preciofinal
+End

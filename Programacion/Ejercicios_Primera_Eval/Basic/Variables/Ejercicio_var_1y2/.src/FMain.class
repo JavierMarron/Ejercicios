@@ -1,0 +1,22 @@
+' Gambas class file
+
+Private x As Float
+Private y As Float
+Private suma As Float 
+Private resta As Float
+Private multiplicacion As Float
+Private division As Float
+
+
+Public Sub Bplay_Click()
+
+  TBnum1.Text = x
+  TBnum2.Text = y 
+  suma = x + y
+  resta = x - y
+  multiplicacion = x * y
+  division = x / y
+  
+  Lresultado.Text = suma & "," & resta & "," & multiplicacion & "," & division
+
+End

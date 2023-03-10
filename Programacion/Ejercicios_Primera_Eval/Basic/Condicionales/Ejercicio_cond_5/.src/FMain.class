@@ -1,0 +1,32 @@
+' Gambas class file
+
+Private numa As Integer
+Private numb As Integer
+Private numc As Integer
+
+
+Public Sub BPlay_Click()
+
+  numa = TBNum1.Text
+  numb = TBNum2.Text
+  numc = TBNum3.Text
+  
+  If (numa <= numb And numa <= numc And numb <= numc) Then 'a < b < c
+   LResultado.Text = numa & "<" & numb & "<" & numc
+  Endif 
+  If (numa <= numc And numa <= numb And numc <= numb) Then  'a < c < b
+   LResultado.Text = numa & "<" & numc & "<" & numb
+  Endif 
+  If (numb <= numa And numb <= numc And numa <= numc) Then 'b < a < c
+   LResultado.Text = numb & "<" & numa & "<" & numc
+  Endif 
+  If (numb <= numc And numb <= numa And numc <= numa) Then 'b < c < a
+   LResultado.Text = numb & "<" & numc & "<" & numa
+  Endif 
+  If (numc <= numa And numc <= numb And numa <= numb) Then 'c < a < b
+   LResultado.Text = numc & "<" & numa & "<" & numb
+  Endif 
+  If (numc <= numb And numc <= numa And numb <= numa) Then 'c < b < a
+   LResultado.Text = numc & "<" & numb & "<" & numa
+  Endif  
+End

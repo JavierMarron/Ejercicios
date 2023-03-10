@@ -1,0 +1,17 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,61,50)
+  Background = Color.SelectedForeground
+  { TextBox1 TextBox
+    MoveScaled(5,10,21,10)
+  }
+  { Label1 Label
+    MoveScaled(33,10,21,10)
+    Background = Color.Background
+  }
+  { BPlay Button
+    MoveScaled(18,31,23,9)
+    Text = ("Play")
+  }
+}

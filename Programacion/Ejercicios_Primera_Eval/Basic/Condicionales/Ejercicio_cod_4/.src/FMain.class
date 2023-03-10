@@ -1,0 +1,33 @@
+' Gambas class file
+
+Private nota1 As Float
+Private nota2 As Float
+Private nota3 As Float
+Private notamedia As Float
+Private suma As Float
+
+
+Public Sub Bplay_Click()
+
+  nota1 = TBnota1.Text
+  nota2 = TBnota2.Text
+  nota3 = TBnota3.Text
+  
+  suma = nota1 + nota2 + nota3
+  notamedia = suma / 3
+  
+  If (notamedia <= 4 And notamedia >= 0) Then 
+    Lresultado.Text = "Insuficiente!"
+  Else If (notamedia >= 5 And notamedia < 6) Then 
+    Lresultado.Text = "Suficiente!"
+  Else If (notamedia >= 6 And notamedia < 7) Then 
+    Lresultado.Text = "Bien!"
+  Else If (notamedia >= 7 And notamedia < 8.5) Then 
+    Lresultado.Text = "Notable!"
+  Else If (notamedia >= 8.5 And notamedia <= 10) Then 
+    Lresultado.Text = "Sobresaliente!"
+  Else 
+    Lresultado.Text = "ERROR!"
+  Endif 
+
+End

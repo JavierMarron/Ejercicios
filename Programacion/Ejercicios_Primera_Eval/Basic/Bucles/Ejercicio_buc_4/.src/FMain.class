@@ -1,0 +1,14 @@
+' Gambas class file
+
+Private cuenta As Integer
+
+
+Public Sub Bplay_Click()
+  cuenta = 20
+  Dim i As Integer
+  For i = 0 To 20
+    Lresultado.Text = Lresultado.Text & " " & cuenta 
+    cuenta = cuenta - 1 
+  Next
+
+End

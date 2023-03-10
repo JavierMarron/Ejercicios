@@ -1,0 +1,20 @@
+' Gambas class file
+
+Private num As Integer
+Private resultado As Integer
+
+Public Sub Bplay_Click()
+
+   num = TBnum.Text 
+   Dim i As Integer
+   For i = 0 To 9
+     
+     resultado = i * num
+     Lresultado.Text = Lresultado.Text & " " & resultado
+     
+     
+   Next
+
+End
+ 
+
